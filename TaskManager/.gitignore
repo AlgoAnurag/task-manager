@@ -1,5 +1,6 @@
 HELP.md
 target/
+.idea/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
@@ -45,3 +46,18 @@ dist/
 frontend/node_modules/
 frontend/dist/
 frontend/.parcel-cache/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Node
+node_modules/
+dist/
+
+# Java
+target/
+*.class
+
+# Env
+.env
